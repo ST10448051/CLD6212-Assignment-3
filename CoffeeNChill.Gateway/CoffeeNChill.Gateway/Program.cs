@@ -1,5 +1,7 @@
-
+using CoffeeNChill.Gateway.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.OpenApi;
+using CoffeeNChill.Gateway.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,10 @@ builder.Services.AddSwaggerGen(options =>
 
 // HTTP client for backend Azure Functions
 builder.Services.AddHttpClient();
+builder.Services.AddSingleton<UserService>();
+builder.Services.AddScoped<
+    IPasswordHasher<UserEntity>,
+    PasswordHasher<UserEntity>>();
 
 var app = builder.Build();
 

@@ -3,8 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A70AE863-F428-4EDA-ADF2-E18F191AE92A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|c:\\users\\emeris\\coffeenchill\\coffeenchill.gateway\\coffeenchill.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A70AE863-F428-4EDA-ADF2-E18F191AE92A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|solutionrelative:coffeenchill.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|c:\\users\\emeris\\coffeenchill\\coffeenchill.gateway\\coffeenchill.gateway\\coffeenchill.gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|solutionrelative:coffeenchill.gateway\\coffeenchill.gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emeris\\AppData\\Roaming\\Microsoft\\UserSecrets\\92a664c3-7270-416c-9dbb-5c01fc133c3e\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|c:\\users\\emeris\\coffeenchill\\coffeenchill.gateway\\coffeenchill.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|solutionrelative:coffeenchill.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|c:\\users\\emeris\\coffeenchill\\coffeenchill.gateway\\coffeenchill.gateway\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|solutionrelative:coffeenchill.gateway\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|c:\\users\\emeris\\coffeenchill\\coffeenchill.gateway\\coffeenchill.gateway\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|solutionrelative:coffeenchill.gateway\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|c:\\users\\emeris\\coffeenchill\\coffeenchill.gateway\\coffeenchill.gateway\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|solutionrelative:coffeenchill.gateway\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|c:\\users\\emeris\\coffeenchill\\coffeenchill.gateway\\coffeenchill.gateway\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57D59B1-A4FD-918D-F27C-F48342FC023A}|CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj|solutionrelative:coffeenchill.gateway\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +37,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "CoffeeNChill.Gateway\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "CoffeeNChill.Gateway\\DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T08:27:51.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\emeris\\AppData\\Roaming\\Microsoft\\UserSecrets\\92a664c3-7270-416c-9dbb-5c01fc133c3e\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\92a664c3-7270-416c-9dbb-5c01fc133c3e\\secrets.json",
+              "ToolTip": "C:\\Users\\emeris\\AppData\\Roaming\\Microsoft\\UserSecrets\\92a664c3-7270-416c-9dbb-5c01fc133c3e\\secrets.json",
+              "RelativeToolTip": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\92a664c3-7270-416c-9dbb-5c01fc133c3e\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-10T08:17:35.115Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CoffeeNChill.Gateway",
+              "DocumentMoniker": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj",
+              "RelativeDocumentMoniker": "CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj",
+              "ToolTip": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj",
+              "RelativeToolTip": "CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-10T08:11:46.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CoffeeNChill.Gateway\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CoffeeNChill.Gateway\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T08:29:38.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CoffeeNChill.Gateway\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\Services\\UserService.cs",
+              "RelativeToolTip": "CoffeeNChill.Gateway\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T08:15:25.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\Models\\UserEntity.cs",
+              "RelativeDocumentMoniker": "CoffeeNChill.Gateway\\Models\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\Models\\UserEntity.cs",
+              "RelativeToolTip": "CoffeeNChill.Gateway\\Models\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T08:12:36.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\Program.cs",
               "RelativeDocumentMoniker": "CoffeeNChill.Gateway\\Program.cs",
               "ToolTip": "C:\\Users\\emeris\\CoffeeNChill\\CoffeeNChill.Gateway\\CoffeeNChill.Gateway\\Program.cs",
               "RelativeToolTip": "CoffeeNChill.Gateway\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-10T07:57:22.322Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             }
           ]
         }
