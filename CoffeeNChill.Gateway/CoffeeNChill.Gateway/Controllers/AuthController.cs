@@ -14,13 +14,16 @@ namespace CoffeeNChill.Gateway.Controllers
     {
         private readonly UserService _userService;
         private readonly IPasswordHasher<UserEntity> _passwordHasher;
+        private readonly JwtTokenService _jwtTokenService;
 
         public AuthController(
             UserService userService,
-            IPasswordHasher<UserEntity> passwordHasher)
+            IPasswordHasher<UserEntity> passwordHasher,
+            JwtTokenService jwtTokenService)
         {
             _userService = userService;
             _passwordHasher = passwordHasher;
+            _jwtTokenService = jwtTokenService;
         }
 
         [HttpPost("register")]
@@ -78,5 +81,58 @@ namespace CoffeeNChill.Gateway.Controllers
                 role = user.PartitionKey
             });
         }
+
+        [HttpPost("login")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login(
+            [FromBody] LoginRequest request)
+        {
+            string email = request.Email.Trim().ToLowerInvariant();
+
+            var user = await _userService.GetUserByEmailAsync(email);
+
+            if (user == null)
+            {
+                return Unauthorized(new
+                {
+                    message = "Invalid email or password."
+                });
+            }
+
+            var result = _passwordHasher.VerifyHashedPassword(
+                user,
+                user.PasswordHash,
+                request.Password);
+
+            if (result == PasswordVerificationResult.Failed)
+            {
+                return Unauthorized(new
+                {
+                    message = "Invalid email or password."
+                });
+            }
+
+            if (result == PasswordVerificationResult.SuccessRehashNeeded)
+            {
+                user.PasswordHash =
+                    _passwordHasher.HashPassword(user, request.Password);
+
+                await _userService.UpdateUserAsync(user);
+            }
+
+            var (token, expiresAt) =
+                _jwtTokenService.GenerateToken(user);
+
+            return Ok(new
+            {
+                token,
+                tokenType = "Bearer",
+                expiresAt,
+                fullName = user.FullName,
+                email = user.RowKey,
+                role = user.PartitionKey
+            });
+        }
+
     }
 }

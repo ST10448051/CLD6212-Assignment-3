@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "..\\CofeeNChill.Functions\\CofeeNChill.Functions.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CoffeeNChill.Gateway\\CoffeeNChill.Gateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -42,5 +42,13 @@ namespace CoffeeNChill.Gateway.Services
         {
             await _tableClient.AddEntityAsync(user);
         }
+
+        public async Task UpdateUserAsync(UserEntity user)
+        {
+            await _tableClient.UpdateEntityAsync(
+                user,
+                user.ETag,
+                TableUpdateMode.Replace);
+        }
     }
 }
